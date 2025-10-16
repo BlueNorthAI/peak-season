@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Sparkles } from "lucide-react"
+import { ArrowRight, Sparkles, Clock, AlertCircle } from "lucide-react"
 import Image from "next/image"
 
 export function Hero() {
@@ -9,8 +9,8 @@ export function Hero() {
       
       {/* Logo in top left corner */}
       <div className="absolute top-6 left-6 z-10 flex items-center gap-2">
-        <Image src="/logo1.png" alt="BlueNorth AI" width={220} height={80} className="h-10 w-auto" />
-        <Image src="/Bluenorthai.png" alt="BlueNorth AI" width={109} height={124} className="h-6 w-auto" />
+        <Image src="/LOGO1.png" alt="BlueNorth AI" width={220} height={80} className="h-10 w-auto" />
+        <Image src="/BlueNorthai.png" alt="BlueNorth AI" width={109} height={124} className="h-6 w-auto" />
       </div>
 
       <div className="relative mx-auto max-w-6xl px-6 py-32 sm:py-40 lg:px-8">
@@ -32,23 +32,38 @@ export function Hero() {
                   fill="white"
                 />
               </svg>
-              <span className="text-sm font-medium text-foreground">Shopify Plus Partner</span>
+              <span className="text-sm font-medium text-foreground">Certified Shopify Plus Partner</span>
             </div>
           </div>
 
           <h1 className="text-balance text-center text-5xl font-bold leading-tight tracking-tight sm:text-6xl lg:text-7xl">
-            Hey Friends 👋
+            Protect Your Peak Season Revenue
             <br />
-            Don't Lose <span className="text-highlight text-primary">$1.2 Trillion</span> to Stockouts
+            <span className="text-highlight text-primary">$11.5B in BFCM Sales</span> at Stake
           </h1>
 
           <p className="mt-8 text-balance text-center text-xl leading-relaxed text-muted-foreground sm:text-2xl">
-            I'm a supply chain expert who helps Shopify Plus merchants dominate peak season with{" "}
-            <span className="font-semibold text-primary">ML-powered forecasting</span> and{" "}
-            <span className="font-semibold text-primary">real-time monitoring</span>.
+            Supply chain experts from McKinsey, MIT, and Blue Yonder help Shopify Plus merchants eliminate stockouts and
+            optimize inventory with <span className="font-semibold text-primary">ML-powered forecasting</span> and{" "}
+            <span className="font-semibold text-primary">real-time control towers</span>.
           </p>
 
-          <div className="mt-10 rounded-2xl border border-primary/20 bg-gradient-to-br from-primary/5 to-secondary/5 p-6 shadow-sm">
+          <div className="mt-10 rounded-2xl border-2 border-orange-500/30 bg-gradient-to-br from-orange-50 to-red-50 p-6 shadow-lg">
+            <div className="flex items-start gap-3">
+              <AlertCircle className="mt-1 h-6 w-6 shrink-0 text-orange-600" />
+              <div>
+                <p className="text-balance text-lg font-semibold leading-relaxed text-orange-900">
+                  <Clock className="inline h-5 w-5 mr-2" />
+                  October Implementation Deadline: Black Friday is November 28, 2025
+                </p>
+                <p className="mt-2 text-base text-orange-800">
+                  Only 3 implementation slots remaining for pre-BFCM deployment. 2-week fast-track available.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-10 rounded-2xl border border-primary/20 bg-white px-6 py-3 shadow-sm">
             <div className="flex items-start gap-3">
               <Sparkles className="mt-1 h-5 w-5 shrink-0 text-primary" />
               <p className="text-balance text-lg leading-relaxed">
