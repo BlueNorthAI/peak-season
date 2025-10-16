@@ -9,8 +9,8 @@ export function Hero() {
       
       {/* Logo in top left corner */}
       <div className="absolute top-6 left-6 z-10 flex items-center gap-2">
-        <Image src="/LOGO1.png" alt="BlueNorth AI" width={220} height={80} className="h-10 w-auto" />
-        <Image src="/BlueNorthai.png" alt="BlueNorth AI" width={109} height={124} className="h-6 w-auto" />
+        <Image src="/logo1.png" alt="BlueNorth AI" width={220} height={80} className="h-10 w-auto" />
+        <Image src="/Bluenorthai.png" alt="BlueNorth AI" width={109} height={124} className="h-6 w-auto" />
       </div>
 
       <div className="relative mx-auto max-w-6xl px-6 py-32 sm:py-40 lg:px-8">
