@@ -1,11 +1,16 @@
+"use client"
+
 import { Check, ArrowRight, Zap, Star, Shield } from "lucide-react"
 import { Card } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
+import { CalendlyButton } from "./calendly-button"
+import { RazorpayButton } from "./razorpay-button"
 
 const tiers = [
   {
     name: "Peak Essentials",
     price: "$4,995",
+    priceINR: "₹4,19,995",
+    amountINR: 419995,
     description: "Survival-focused package for merchants under $5M GMV",
     features: [
       "Basic ML demand forecasting (7-day moving average)",
@@ -22,6 +27,8 @@ const tiers = [
   {
     name: "Peak Ready",
     price: "$7,995",
+    priceINR: "₹6,71,995",
+    amountINR: 671995,
     description: "Most popular - Strategic consulting + custom app in 2 weeks",
     features: [
       "Advanced ML forecasting (XGBoost/Prophet)",
@@ -44,11 +51,13 @@ const tiers = [
   {
     name: "Peak Enterprise",
     price: "$12,995",
+    priceINR: "₹10,91,995",
+    amountINR: 1091995,
     description: "White-glove service for merchants over $20M GMV",
     features: [
       "Everything in Peak Ready, plus:",
       "MILP optimization for inventory positioning",
-      "SimPy simulation for capacity planning",
+      "Digital twin modeling via discrete event simulation",
       "Dedicated supply chain strategist",
       "Daily check-ins during Nov-Dec",
       "Dedicated Slack channel",
@@ -104,10 +113,11 @@ export function Offer() {
               <div className="text-center">
                 <h3 className="text-2xl font-bold text-gray-900">{tier.name}</h3>
                 <p className="mt-2 text-sm text-gray-600">{tier.description}</p>
-                <div className="mt-6 flex items-baseline justify-center gap-2">
+                <div className="mt-6 flex flex-col items-center justify-center gap-1">
                   <span className="text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
-                    {tier.price}
+                    {tier.priceINR}
                   </span>
+                  <span className="text-sm text-gray-500">({tier.price} USD)</span>
                 </div>
                 {tier.savings && <p className="mt-2 text-sm font-semibold text-green-600">{tier.savings}</p>}
               </div>
@@ -130,7 +140,10 @@ export function Offer() {
                 </div>
               </div>
 
-              <Button
+              <RazorpayButton
+                amount={tier.amountINR}
+                packageName={tier.name}
+                packageDescription={tier.description}
                 size="lg"
                 className={`mt-8 w-full h-14 rounded-2xl text-base font-bold shadow-lg transition-all duration-300 hover:scale-105 ${
                   tier.popular
@@ -140,7 +153,7 @@ export function Offer() {
               >
                 {tier.cta}
                 <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
+              </RazorpayButton>
             </Card>
           ))}
         </div>
@@ -167,17 +180,17 @@ export function Offer() {
 
         <div className="mx-auto mt-12 max-w-3xl rounded-2xl border-2 border-orange-500/30 bg-gradient-to-br from-orange-50 to-red-50 p-8 text-center shadow-xl">
           <Zap className="mx-auto h-12 w-12 text-orange-600" />
-          <p className="mt-4 text-2xl font-bold text-orange-900">October-Only Pricing - 3 Slots Remaining</p>
+          <p className="mt-4 text-2xl font-bold text-orange-900">November-Only Pricing - 3 Slots Remaining</p>
           <p className="mt-3 text-lg text-orange-800">
-            Implementation must start by October 15th to be ready for BFCM. Rates increase $2,000 after October 20th.
+            Implementation must start by November 15th to be ready for BFCM. Rates increase $2,000 after November 20th.
           </p>
-          <Button
+          <CalendlyButton
             size="lg"
             className="mt-6 h-14 rounded-2xl bg-orange-600 px-12 text-lg font-bold hover:bg-orange-700 shadow-xl"
           >
-            Book Your October Implementation Slot
+            Book Your November Implementation Slot
             <ArrowRight className="ml-3 h-6 w-6" />
-          </Button>
+          </CalendlyButton>
         </div>
       </div>
     </section>

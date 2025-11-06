@@ -1,4 +1,7 @@
+"use client"
+
 import { Button } from "@/components/ui/button"
+import { CalendlyButton } from "@/components/calendly-button"
 import { ArrowRight, Sparkles, Clock, AlertCircle } from "lucide-react"
 import Image from "next/image"
 
@@ -54,7 +57,7 @@ export function Hero() {
               <div>
                 <p className="text-balance text-lg font-semibold leading-relaxed text-orange-900">
                   <Clock className="inline h-5 w-5 mr-2" />
-                  October Implementation Deadline: Black Friday is November 28, 2025
+                  November Implementation Deadline: Black Friday is November 28, 2025
                 </p>
                 <p className="mt-2 text-base text-orange-800">
                   Only 3 implementation slots remaining for pre-BFCM deployment. 2-week fast-track available.
@@ -74,19 +77,22 @@ export function Hero() {
           </div>
 
           <div className="mt-12 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <Button
+            <CalendlyButton
               size="lg"
               className="group h-14 w-full rounded-full bg-primary px-8 text-base hover:bg-primary/90 sm:w-auto"
             >
-              Get Your Free Assessment
+              Schedule Free Assessment
               <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
-            </Button>
+            </CalendlyButton>
             <Button
               size="lg"
               variant="outline"
               className="h-14 w-full rounded-full border-2 border-primary/30 bg-transparent px-8 text-base text-primary hover:bg-primary/5 sm:w-auto"
+              onClick={() => {
+                document.getElementById('proven-results')?.scrollIntoView({ behavior: 'smooth' })
+              }}
             >
-              View Case Studies
+              View Industry Results
             </Button>
           </div>
 

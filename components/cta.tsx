@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
+import { CalendlyButton } from "@/components/calendly-button"
 import { Calendar, ArrowRight } from "lucide-react"
 
 export function CTA() {
@@ -18,7 +18,7 @@ export function CTA() {
               </p>
 
               <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-                <Button
+                <CalendlyButton
                   size="lg"
                   variant="secondary"
                   className="group w-full bg-white text-primary hover:bg-white/90 sm:w-auto"
@@ -26,7 +26,7 @@ export function CTA() {
                   <Calendar className="mr-2 h-5 w-5" />
                   Schedule Free Assessment
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                </Button>
+                </CalendlyButton>
               </div>
 
               <div className="mt-8 flex flex-col items-center gap-4 text-sm text-white/90 sm:flex-row sm:justify-center">

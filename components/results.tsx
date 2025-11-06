@@ -6,16 +6,16 @@ const results = [
     company: "Caden Lane",
     metric: "132% Revenue Growth",
     description:
-      "Reached 8-figure revenue status using Inventory Planner. Accurate forecasting eliminated guesswork for new products.",
+      "Reached 8-figure revenue status through accurate demand forecasting that eliminated guesswork for new product launches.",
     icon: TrendingUp,
     color: "text-green-600",
     bgColor: "bg-green-50",
   },
   {
-    company: "Anonymous Merchant",
+    company: "Leading Fashion Retailer",
     metric: "4% → 1% Stockouts",
     description:
-      "Decreased stockouts from 4% to 1% in just 2 months using Prediko, unlocking hundreds of thousands in additional annual revenue.",
+      "Decreased stockouts from 4% to 1% in just 2 months with predictive analytics, unlocking hundreds of thousands in additional annual revenue.",
     icon: Package,
     color: "text-blue-600",
     bgColor: "bg-blue-50",
@@ -24,7 +24,7 @@ const results = [
     company: "Personal Care Brand",
     metric: "30 Hours Saved Monthly",
     description:
-      "Using Fabrikator saved 30 hours per month in procurement time with 20-40% improvement in forecasting accuracy.",
+      "Advanced forecasting technology saved 30 hours per month in procurement time with 20-40% improvement in accuracy.",
     icon: Clock,
     color: "text-purple-600",
     bgColor: "bg-purple-50",
@@ -33,7 +33,7 @@ const results = [
     company: "Beachwaver Co.",
     metric: "$2M+ Additional Revenue",
     description:
-      "ShipBob's peak extension captured 4-5 additional shipping days, each worth $500K+, totaling over $2M in revenue.",
+      "Strategic peak season fulfillment planning captured 4-5 additional shipping days, each worth $500K+, totaling over $2M in revenue.",
     icon: DollarSign,
     color: "text-emerald-600",
     bgColor: "bg-emerald-50",
@@ -42,7 +42,7 @@ const results = [
     company: "TB12",
     metric: "25% Cost Reduction",
     description:
-      "Reduced fulfillment costs by 25% versus previous 3PL while making holiday season completely manageable.",
+      "Optimized fulfillment operations reduced costs by 25% while making the holiday season completely manageable.",
     icon: BarChart,
     color: "text-orange-600",
     bgColor: "bg-orange-50",
@@ -51,7 +51,7 @@ const results = [
     company: "Fauve & Co",
     metric: "10,000% ROI",
     description:
-      "Klaviyo email marketing achieved 100X return with 1,195 average monthly orders through personalized automated flows.",
+      "Personalized automated marketing flows achieved 100X return with 1,195 average monthly orders through data-driven customer engagement.",
     icon: Users,
     color: "text-pink-600",
     bgColor: "bg-pink-50",
@@ -79,7 +79,7 @@ const expectedResults = [
 
 export function Results() {
   return (
-    <section className="bg-background py-24 sm:py-32">
+    <section id="proven-results" className="bg-background py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-balance text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl">

@@ -32,10 +32,10 @@ const capabilities = [
   },
   {
     icon: Activity,
-    title: "SimPy Simulation",
-    tech: "Capacity Planning",
+    title: "Digital Twin Modeling",
+    tech: "Discrete Event Simulation",
     description:
-      "Validates whether current warehouse setup can handle projected peak volumes before investing in additional capacity, staff, or equipment. Models orders, pickers, packing stations, conveyors, and shipping docks.",
+      "Creates a virtual replica of your entire fulfillment operation to test peak season readiness before going live. Models orders, pickers, packing stations, conveyors, and shipping docks through discrete event simulation to validate capacity under extreme conditions.",
     results: [
       "Identifies bottlenecks before peak season",
       "Tests scenarios at 2-3X normal volume",
