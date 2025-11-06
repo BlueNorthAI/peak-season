@@ -3,7 +3,12 @@
     "allow": [
       "Bash(cat:*)",
       "Bash(npm run dev:*)",
-      "Bash(npm install:*)"
+      "Bash(npm install:*)",
+      "Bash(pnpm i)",
+      "Bash(pnpm add:*)",
+      "Bash(pnpm drizzle-kit generate:*)",
+      "Bash(pnpm drizzle-kit push:*)",
+      "Bash(pnpm drizzle-kit studio:*)"
     ],
     "deny": [],
     "ask": []

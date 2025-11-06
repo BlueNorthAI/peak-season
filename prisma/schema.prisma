@@ -1,0 +1,55 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Payment {
+  id                  String   @id @default(cuid())
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+
+  // Razorpay Details
+  razorpayOrderId     String   @unique
+  razorpayPaymentId   String?  @unique
+  razorpaySignature   String?
+
+  // Package Details
+  packageName         String
+  packageDescription  String?
+  amount              Int      // Amount in paise
+  currency            String   @default("INR")
+
+  // Customer Details
+  customerName        String?
+  customerEmail       String?
+  customerPhone       String?
+
+  // Payment Status
+  status              PaymentStatus @default(CREATED)
+
+  // Additional Notes
+  notes               Json?
+
+  @@index([razorpayOrderId])
+  @@index([razorpayPaymentId])
+  @@index([customerEmail])
+  @@index([status])
+}
+
+enum PaymentStatus {
+  CREATED      // Order created, payment pending
+  AUTHORIZED   // Payment authorized
+  CAPTURED     // Payment successful
+  FAILED       // Payment failed
+  REFUNDED     // Payment refunded
+}

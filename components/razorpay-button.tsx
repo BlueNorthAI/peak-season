@@ -67,9 +67,18 @@ export function RazorpayButton({
         throw new Error(errorMessage)
       }
 
+      // Get Razorpay Key ID
+      const razorpayKeyId = "rzp_test_RcONAVccpUjfNr"
+
+      if (!razorpayKeyId) {
+        throw new Error("Razorpay Key ID not configured")
+      }
+
+      console.log("Using Razorpay Key ID:", razorpayKeyId)
+
       // Configure Razorpay options
       const options = {
-        key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID,
+        key: razorpayKeyId,
         amount: orderData.amount,
         currency: orderData.currency,
         name: "BlueNorth AI",
@@ -108,9 +117,10 @@ export function RazorpayButton({
         const rzp = new window.Razorpay(options)
         rzp.open()
       }
-    } catch (error) {
+    } catch (error: any) {
       console.error("Payment error:", error)
-      alert("Failed to initiate payment. Please try again.")
+      const errorMessage = error.message || "Failed to initiate payment"
+      alert(`Payment Error: ${errorMessage}\n\nPlease:\n1. Ensure you're running dev server (npm run dev)\n2. Check browser console (F12) for details\n3. Try refreshing the page`)
       setIsLoading(false)
     }
   }

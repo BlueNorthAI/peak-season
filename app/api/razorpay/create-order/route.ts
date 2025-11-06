@@ -1,4 +1,6 @@
 import { NextRequest, NextResponse } from "next/server"
+import { db } from "@/lib/db"
+import { payments } from "@/lib/db/schema"
 
 export async function POST(request: NextRequest) {
   try {
@@ -51,6 +53,23 @@ export async function POST(request: NextRequest) {
     const order = await razorpay.orders.create(options)
 
     console.log("Razorpay order created successfully:", order.id)
+
+    // Save to database
+    try {
+      await db.insert(payments).values({
+        razorpayOrderId: order.id,
+        packageName,
+        packageDescription,
+        amount: order.amount,
+        currency: order.currency,
+        status: "CREATED",
+        notes: { packageName, packageDescription },
+      })
+      console.log("✅ Payment saved to database")
+    } catch (dbError) {
+      console.error("❌ Database error (continuing):", dbError)
+      // Continue even if database fails - don't block payment
+    }
 
     return NextResponse.json({
       id: order.id,
