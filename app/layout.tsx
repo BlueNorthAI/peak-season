@@ -3,6 +3,7 @@ import { Lexend } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 import { Suspense } from "react"
+import Header from "@/components/header"
 
 const lexend = Lexend({
   subsets: ["latin"],
@@ -34,6 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`font-sans ${lexend.variable} antialiased`}>
+        <Header />
         <Suspense fallback={null}>{children}</Suspense>
         <Analytics />
       </body>
