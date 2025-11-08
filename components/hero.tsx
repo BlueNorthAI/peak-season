@@ -7,14 +7,8 @@ import Image from "next/image"
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden bg-background">
+    <section className="relative overflow-hidden bg-background pt-20">
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#3b82f608_1px,transparent_1px),linear-gradient(to_bottom,#3b82f608_1px,transparent_1px)] bg-[size:32px_32px]" />
-      
-      {/* Logo in top left corner */}
-      <div className="absolute top-6 left-6 z-10 flex items-center gap-2">
-        <Image src="/logo1.png" alt="BlueNorth AI" width={220} height={80} className="h-10 w-auto" />
-        <Image src="/Bluenorthai.png" alt="BlueNorth AI" width={109} height={124} className="h-6 w-auto" />
-      </div>
 
       <div className="relative mx-auto max-w-6xl px-6 py-32 sm:py-40 lg:px-8">
         <div className="mx-auto max-w-7xl">
