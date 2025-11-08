@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export function Footer() {
   return (
     <footer className="border-t border-border bg-gradient-to-br from-primary/5 to-secondary/5">
@@ -28,8 +30,18 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-8 border-t border-border pt-8 text-center text-sm text-muted-foreground">
-          <p>© 2025 BlueNorth AI. All rights reserved.</p>
+        <div className="mt-8 border-t border-border pt-8">
+          <div className="flex flex-col items-center justify-center gap-4 text-sm text-muted-foreground sm:flex-row sm:justify-between">
+            <p>© 2025 BlueNorth AI. All rights reserved.</p>
+            <div className="flex gap-6">
+              <Link href="/privacy" className="hover:text-foreground transition-colors">
+                Privacy Policy
+              </Link>
+              <Link href="/cookies" className="hover:text-foreground transition-colors">
+                Cookie Policy
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
