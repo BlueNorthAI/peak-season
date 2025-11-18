@@ -1,6 +1,13 @@
-import { Brain, BarChart3, Bell, Zap, Users } from "lucide-react"
+import { Brain, BarChart3, Bell, Zap, Users, Network } from "lucide-react"
 
 const capabilities = [
+   {
+    icon: Network,
+    title: "Digital Twin Simulation",
+    description:
+      "Create a virtual replica of your entire supply chain to test scenarios, predict bottlenecks, and optimize decisions before implementation. Run what-if analyses for peak season planning.",
+    color: "bg-gradient-to-br from-teal-600 to-cyan-600",
+  },
   {
     icon: Brain,
     title: "ML-Powered Demand Forecasting",
@@ -36,6 +43,7 @@ const capabilities = [
       "Our supply chain experts combined with AI-powered systems monitor your operations in real-time throughout peak season. Human expertise meets machine intelligence.",
     color: "bg-gradient-to-br from-pink-600 to-purple-600",
   },
+ 
 ]
 
 export function Solution() {

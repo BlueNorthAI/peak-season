@@ -60,12 +60,12 @@ const results = [
 
 const expectedResults = [
   {
-    metric: "$1M-$2M",
+    metric: "$1M+",
     label: "Revenue Protection",
     description: "Through prevented stockouts and better inventory positioning",
   },
   {
-    metric: "$300K-$500K",
+    metric: "$200K-$300K",
     label: "Cost Savings",
     description: "From optimized fulfillment and reduced emergency shipping",
   },

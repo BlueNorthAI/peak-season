@@ -93,12 +93,12 @@ export function Hero() {
               <div className="mt-3 text-base text-muted-foreground">Guaranteed ROI</div>
             </div>
             <div className="text-center">
-              <div className="text-6xl font-bold text-secondary">30%</div>
-              <div className="mt-3 text-base text-muted-foreground">Fewer Supply Chain Errors</div>
+              <div className="text-6xl font-bold text-secondary">99%</div>
+              <div className="mt-3 text-base text-muted-foreground">Stock Out Prevention</div>
             </div>
             <div className="text-center">
-              <div className="text-6xl font-bold text-accent">$10K</div>
-              <div className="mt-3 text-base text-muted-foreground">Fixed Investment</div>
+              <div className="text-6xl font-bold text-accent">95%+</div>
+              <div className="mt-3 text-base text-muted-foreground">Service Level Improvement</div>
             </div>
           </div>
         </div>

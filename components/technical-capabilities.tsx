@@ -2,35 +2,7 @@ import { Brain, Cpu, Activity, Boxes } from "lucide-react"
 import { Card } from "@/components/ui/card"
 
 const capabilities = [
-  {
-    icon: Brain,
-    title: "ML Demand Forecasting",
-    tech: "XGBoost & Prophet",
-    description:
-      "32-40% forecast error reduction versus traditional rolling mean methods. Handles multiple variables simultaneously including previous BFCM performance, weather forecasts, promotional calendar, and social media engagement trends.",
-    results: [
-      "35% reduction in stockouts during peak period",
-      "23% revenue growth versus traditional forecasting",
-      "45% improvement in inventory turnover",
-      "78% fewer out-of-stock situations",
-    ],
-    color: "from-purple-600 to-indigo-600",
-  },
-  {
-    icon: Cpu,
-    title: "MILP Optimization",
-    tech: "Google OR-Tools",
-    description:
-      "Multi-location inventory positioning that minimizes total costs (holding + ordering + fulfillment) while meeting service level targets. Solves problems with 100+ locations and 1,000+ orders in under 1 second.",
-    results: [
-      "15-25% reduction in fulfillment costs",
-      "90%+ in-region fulfillment versus 70% baseline",
-      "40% reduction in split shipments",
-      "3-5% margin improvement through optimized positioning",
-    ],
-    color: "from-blue-600 to-cyan-600",
-  },
-  {
+    {
     icon: Activity,
     title: "Digital Twin Modeling",
     tech: "Discrete Event Simulation",
@@ -58,6 +30,34 @@ const capabilities = [
     ],
     color: "from-orange-600 to-red-600",
   },
+  {
+    icon: Brain,
+    title: "ML Demand Forecasting",
+    tech: "XGBoost & Prophet",
+    description:
+      "32-40% forecast error reduction versus traditional rolling mean methods. Handles multiple variables simultaneously including previous BFCM performance, weather forecasts, promotional calendar, and social media engagement trends.",
+    results: [
+      "35% reduction in stockouts during peak period",
+      "23% revenue growth versus traditional forecasting",
+      "45% improvement in inventory turnover",
+      "78% fewer out-of-stock situations",
+    ],
+    color: "from-purple-600 to-indigo-600",
+  },
+  {
+    icon: Cpu,
+    title: "MILP Optimization",
+    tech: "Google OR-Tools",
+    description:
+      "Multi-location inventory positioning that minimizes total costs (holding + ordering + fulfillment) while meeting service level targets. Solves problems with 100+ locations and 1,000+ orders in under 1 second.",
+    results: [
+      "15-25% reduction in fulfillment costs",
+      "90%+ in-region fulfillment versus 70% baseline",
+      "40% reduction in split shipments",
+      "3-5% margin improvement through optimized positioning",
+    ],
+    color: "from-blue-600 to-cyan-600",
+  }
 ]
 
 export function TechnicalCapabilities() {
@@ -66,7 +66,7 @@ export function TechnicalCapabilities() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-balance text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl">
-            Advanced Analytics That <span className="text-highlight text-primary">Justify Premium Pricing</span>
+            Advanced Analytics That <span className="text-highlight text-primary">Justify Our Pricing</span>
           </h2>
           <p className="mt-6 text-balance text-xl leading-relaxed text-muted-foreground">
             Enterprise-grade supply chain optimization delivered in 2 weeks at 10% of traditional cost
@@ -103,7 +103,7 @@ export function TechnicalCapabilities() {
           ))}
         </div>
 
-        <div className="mx-auto mt-16 max-w-4xl rounded-2xl border border-primary/20 bg-white p-8 shadow-xl">
+        <div className="mx-auto mt-16 max-w-7xl rounded-2xl border border-primary/20 bg-white p-8 shadow-xl">
           <h3 className="text-center text-2xl font-bold text-gray-900">Why This Matters for Your Business</h3>
           <p className="mt-4 text-center text-lg text-gray-700">
             Current enterprise control tower solutions (IBM Sterling, o9 Solutions, GEP NEXXE) require 6-12 month

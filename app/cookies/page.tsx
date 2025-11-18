@@ -166,7 +166,7 @@ export default function CookiePolicy() {
             <div className="mt-4 text-muted-foreground">
               <p>If you have any questions about our use of cookies, please contact us:</p>
               <ul className="mt-4 space-y-2">
-                <li><strong>Email:</strong> hello@bluenorth.ai</li>
+                <li><strong>Email:</strong> info@dujulu.com</li>
                 <li><strong>Company:</strong> Dujulu AI</li>
               </ul>
             </div>

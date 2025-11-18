@@ -83,12 +83,12 @@ export function Credentials() {
           </div>
         </div>
 
-        <div className="mx-auto mt-12 max-w-3xl rounded-lg border border-primary/20 bg-gradient-to-r from-primary/5 to-secondary/5 p-6">
+        <div className="mx-auto mt-12 max-w-6xl rounded-lg border border-primary/20 bg-gradient-to-r from-primary/5 to-secondary/5 p-6">
           <p className="text-center text-pretty leading-relaxed text-muted-foreground">
             Our experts bring decades of combined experience from{" "}
-            <span className="font-semibold text-foreground">McKinsey & Company's</span> strategy consulting,{" "}
-            <span className="font-semibold text-foreground">MIT's</span> supply chain research programs, and{" "}
-            <span className="font-semibold text-foreground">Blue Yonder's</span> enterprise supply chain solutions. This
+            <span className="font-semibold text-primary">McKinsey & Company's</span> strategy consulting,{" "}
+            <span className="font-semibold text-primary">MIT's</span> supply chain research programs, and{" "}
+            <span className="font-semibold  text-primary ">Blue Yonder's</span> enterprise supply chain solutions. This
             deep expertise, combined with our proprietary AI models, delivers unmatched results for e-commerce merchants
             merchants.
           </p>

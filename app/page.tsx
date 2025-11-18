@@ -21,7 +21,7 @@ export default function Home() {
       <Results />
       {/* <Offer /> */}
       <Guarantees />
-      <Process />
+      {/* <Process /> */}
       <CTA />
       <Footer />
     </main>
