@@ -4,7 +4,7 @@ import { Credentials } from "@/components/credentials"
 import { Solution } from "@/components/solution"
 import { TechnicalCapabilities } from "@/components/technical-capabilities"
 import { Results } from "@/components/results"
-import { Offer } from "@/components/offer"
+// import { Offer } from "@/components/offer"
 import { Guarantees } from "@/components/guarantees"
 import { Process } from "@/components/process"
 import { CTA } from "@/components/cta"
@@ -19,7 +19,7 @@ export default function Home() {
       <Solution />
       <TechnicalCapabilities />
       <Results />
-      <Offer />
+      {/* <Offer /> */}
       <Guarantees />
       <Process />
       <CTA />

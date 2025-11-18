@@ -45,8 +45,9 @@ export function Guarantees() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-balance text-4xl font-bold tracking-tight sm:text-5xl">
-            Performance Guarantees with <span className="text-highlight text-primary">Money-Back Protection</span>
-          </h2>
+            Performance Guarantees with <br />
+            <span className="text-highlight text-primary">Money-Back Protection</span>
+          </h2> 
           <p className="mt-6 text-pretty text-xl leading-relaxed text-muted-foreground">
             We don't just promise results—we guarantee them with measurable KPIs backed by industry research and our
             track record

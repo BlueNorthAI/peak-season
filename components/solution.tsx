@@ -45,7 +45,7 @@ export function Solution() {
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="font-display text-5xl font-extrabold leading-[1.1] tracking-[-0.02em] text-gray-900 sm:text-6xl lg:text-7xl">
             How Can I{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">
+            <span className="text-transparent bg-clip-text" style={{backgroundImage: 'linear-gradient(90deg, rgba(8, 65, 29, 1) 0%, rgba(36, 139, 47, 1) 70%, rgba(235, 174, 45, 1) 100%)'}}>
               Help You?
             </span>
           </h2>

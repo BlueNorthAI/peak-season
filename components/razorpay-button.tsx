@@ -81,7 +81,7 @@ export function RazorpayButton({
         key: razorpayKeyId,
         amount: orderData.amount,
         currency: orderData.currency,
-        name: "BlueNorth AI",
+        name: "Dujulu AI",
         description: packageDescription,
         order_id: orderData.id,
         prefill: {

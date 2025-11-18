@@ -113,7 +113,7 @@ export function Results() {
             <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4 w-full">
               {expectedResults.map((item) => (
                 <div key={item.label} className="text-center w-full">
-                  <div className="text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
+                  <div className="text-3xl font-black text-transparent bg-clip-text" style={{backgroundImage: 'linear-gradient(90deg, rgba(8, 65, 29, 1) 0%, rgba(36, 139, 47, 1) 70%, rgba(235, 174, 45, 1) 100%)'}}>
                     {item.metric}
                   </div>
                   <div className="mt-3 text-lg font-bold text-gray-900">{item.label}</div>

@@ -12,7 +12,7 @@ const lexend = Lexend({
 })
 
 export const metadata: Metadata = {
-  title: "BlueNorth AI | Supply Chain Intelligence for Shopify Plus",
+  title: "Dujulu AI | Supply Chain Intelligence for Shopify Plus",
   description:
     "Guaranteed 5X ROI on inventory optimization and demand forecasting for peak season. Expert ML-powered supply chain consulting + custom Shopify apps.",
   generator: "v0.app",

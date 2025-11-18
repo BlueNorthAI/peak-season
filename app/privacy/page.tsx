@@ -1,8 +1,8 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | BlueNorth AI',
-  description: 'Privacy Policy for BlueNorth AI - Learn how we collect, use, and protect your information.',
+  title: 'Privacy Policy | Dujulu AI',
+  description: 'Privacy Policy for Dujulu AI - Learn how we collect, use, and protect your information.',
 }
 
 export default function PrivacyPolicy() {
@@ -16,7 +16,7 @@ export default function PrivacyPolicy() {
           <section>
             <h2 className="text-2xl font-semibold">1. Introduction</h2>
             <p className="mt-4 text-muted-foreground">
-              BlueNorth AI (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our services.
+              Dujulu AI (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our services.
             </p>
           </section>
 
@@ -150,7 +150,7 @@ export default function PrivacyPolicy() {
               <p>If you have any questions about this Privacy Policy, please contact us:</p>
               <ul className="mt-4 space-y-2">
                 <li><strong>Email:</strong> hello@bluenorth.ai</li>
-                <li><strong>Company:</strong> BlueNorth AI</li>
+                <li><strong>Company:</strong> Dujulu AI</li>
               </ul>
             </div>
           </section>
