@@ -62,7 +62,7 @@ export function ProblemStatement() {
   return (
     <section className="bg-background py-32 sm:py-40">
       <div className="mx-auto max-w-6xl px-6 lg:px-8">
-        <div className="mx-auto max-w-3xl text-center">
+        <div className="mx-auto max-w-6xl text-center">
           <h2 className="text-balance text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl">
             Peak Season Challenges That Cost{" "}
             <span className="text-highlight text-primary">Millions in Lost Revenue</span>

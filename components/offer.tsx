@@ -32,7 +32,7 @@ const tiers = [
     description: "Most popular - Strategic consulting + custom app in 2 weeks",
     features: [
       "Advanced ML forecasting (XGBoost/Prophet)",
-      "Custom Shopify Plus app with real-time sync",
+      "Custom e-commerce app with real-time sync",
       "Control tower dashboard with intelligent alerts",
       "Multi-location inventory optimization",
       "Peak Season Readiness Assessment",

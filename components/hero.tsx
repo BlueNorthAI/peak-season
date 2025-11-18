@@ -32,15 +32,14 @@ export function Hero() {
           </div>
 
            <h1 className="text-balance text-center text-3xl font-bold leading-tight tracking-tight sm:text-6xl lg:text-6xl">
-            Protect Your Peak Season Revenue
-
-            <span className="text-primary">$11.5B in BFCM Sales</span> at Stake
+           Protect Your 6-Week Holiday Sprint 
+            <span className="text-primary"> <br /> $11.5B in BFCM to Christmas Revenue </span> at Risk
           </h1>
 
           <p className="mt-8 text-balance text-center text-xl leading-relaxed text-muted-foreground sm:text-2xl">
-            Supply chain experts from McKinsey, MIT, and Blue Yonder help Shopify Plus merchants eliminate stockouts and
-            optimize inventory with <span className="font-semibold text-primary">ML-powered forecasting</span> and{" "}
-            <span className="font-semibold text-primary">real-time control towers</span>.
+              AI-powered digital twins and control towers that  
+            <span className="font-semibold text-primary"> prevent stockouts, optimize inventory, and increase service levels </span> 
+             for e-commerce merchants
           </p>
 
           <div className="mt-10 rounded-2xl border-2 border-orange-500/30 bg-gradient-to-br from-orange-50 to-red-50 p-6 shadow-lg">
@@ -52,7 +51,7 @@ export function Hero() {
                   November Implementation Deadline: Black Friday is November 28, 2025
                 </p>
                 <p className="mt-2 text-base text-orange-800">
-                  Only 3 implementation slots remaining for pre-BFCM deployment. 2-week fast-track available.
+                  Only 3 implementation slots remaining for pre-BFCM deployment. 1-week fast-track available.
                 </p>
               </div>
             </div>
@@ -79,7 +78,7 @@ export function Hero() {
             <Button
               size="lg"
               variant="outline"
-              className="h-14 w-full rounded-full border-2 border-primary/30 bg-transparent px-8 text-base text-primary hover:bg-primary/5 sm:w-auto"
+              className="h-14 w-full rounded-full border-2 border-green-500 bg-transparent px-8 text-base text-green-500 hover:bg-green-500 sm:w-auto"
               onClick={() => {
                 document.getElementById('proven-results')?.scrollIntoView({ behavior: 'smooth' })
               }}

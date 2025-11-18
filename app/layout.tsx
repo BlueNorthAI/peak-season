@@ -12,17 +12,17 @@ const lexend = Lexend({
 })
 
 export const metadata: Metadata = {
-  title: "Dujulu AI | Supply Chain Intelligence for Shopify Plus",
+  title: "Dujulu AI | Supply Chain Intelligence for e-commerce merchants",
   description:
     "Guaranteed 5X ROI on inventory optimization and demand forecasting for peak season. Expert ML-powered supply chain consulting + custom Shopify apps.",
   generator: "v0.app",
   icons: {
     icon: [
-      { url: "/logo1.png", sizes: "32x32", type: "image/png" },
-      { url: "/logo1.png", sizes: "16x16", type: "image/png" },
+      { url: "/logo-du/icon-original.png", sizes: "32x32", type: "image/png" },
+      { url: "/logo-du/icon-original.png", sizes: "16x16", type: "image/png" },
     ],
     apple: [
-      { url: "/logo1.png", sizes: "180x180", type: "image/png" },
+      { url: "/logo-du/icon-original.png", sizes: "180x180", type: "image/png" },
     ],
   },
 }

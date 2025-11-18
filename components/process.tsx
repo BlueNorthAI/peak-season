@@ -5,7 +5,7 @@ const steps = [
     icon: FileSearch,
     title: "Discovery & Assessment",
     description:
-      "Deep dive into your current supply chain, historical data, pain points, and peak season goals. We audit your Shopify Plus setup and identify optimization opportunities.",
+      "Deep dive into your current supply chain, historical data, pain points, and peak season goals. We audit your e-commerce setup and identify optimization opportunities.",
     duration: "1-2 weeks",
     color: "bg-primary",
   },
@@ -13,7 +13,7 @@ const steps = [
     icon: Code,
     title: "Model Development & App Build",
     description:
-      "Build custom ML forecasting models trained on your data. Develop and integrate your custom Shopify Plus app with real-time data sync and automated workflows.",
+      "Build custom ML forecasting models trained on your data. Develop and integrate your custom e-commerce app with real-time data sync and automated workflows.",
     duration: "2-3 weeks",
     color: "bg-secondary",
   },

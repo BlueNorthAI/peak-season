@@ -83,7 +83,7 @@ export function Results() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-balance text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl">
-            Proven Results from the <span className="text-highlight text-primary">Shopify Plus Ecosystem</span>
+            Proven Results from the <span className="text-highlight text-primary">e-commerce ecosystem</span>
           </h2>
           <p className="mt-6 text-balance text-xl leading-relaxed text-muted-foreground">
             Real merchants achieving extraordinary outcomes with supply chain optimization and predictive analytics

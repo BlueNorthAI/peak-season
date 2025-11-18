@@ -7,7 +7,7 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           <div>
             <h3 className="text-lg font-semibold text-primary">Dujulu AI</h3>
-            <p className="mt-2 text-sm text-muted-foreground">Supply chain intelligence for Shopify Plus merchants</p>
+            <p className="mt-2 text-sm text-muted-foreground">Supply chain intelligence for e-commerce merchants</p>
           </div>
 
           <div>

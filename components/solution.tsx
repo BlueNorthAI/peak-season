@@ -24,9 +24,9 @@ const capabilities = [
   },
   {
     icon: Zap,
-    title: "Custom Shopify Plus Integration",
+    title: "Custom e-commerce app Integration",
     description:
-      "Native Shopify Plus app seamlessly integrated with your store. Real-time inventory sync, automated reorder workflows, and custom dashboards.",
+      "Native e-commerce app seamlessly integrated with your store. Real-time inventory sync, automated reorder workflows, and custom dashboards.",
     color: "bg-gradient-to-br from-orange-600 to-red-600",
   },
   {
@@ -50,7 +50,7 @@ export function Solution() {
             </span>
           </h2>
           <p className="mt-8 text-xl leading-8 text-gray-600 font-medium">
-            Combining deep supply chain expertise with cutting-edge ML models and native Shopify Plus development
+            Combining deep supply chain expertise with cutting-edge ML models and native e-commerce development
           </p>
         </div>
 

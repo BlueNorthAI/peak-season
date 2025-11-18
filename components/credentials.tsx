@@ -89,7 +89,7 @@ export function Credentials() {
             <span className="font-semibold text-foreground">McKinsey & Company's</span> strategy consulting,{" "}
             <span className="font-semibold text-foreground">MIT's</span> supply chain research programs, and{" "}
             <span className="font-semibold text-foreground">Blue Yonder's</span> enterprise supply chain solutions. This
-            deep expertise, combined with our proprietary AI models, delivers unmatched results for Shopify Plus
+            deep expertise, combined with our proprietary AI models, delivers unmatched results for e-commerce merchants
             merchants.
           </p>
         </div>

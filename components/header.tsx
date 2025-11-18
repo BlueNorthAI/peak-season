@@ -40,7 +40,7 @@ export default function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
+          {/* <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
@@ -50,7 +50,7 @@ export default function Header() {
                 {link.name}
               </Link>
             ))}
-          </div>
+          </div> */}
 
           {/* Mobile Menu Button */}
           <button
@@ -67,7 +67,7 @@ export default function Header() {
         </div>
 
         {/* Mobile Navigation */}
-        {mobileMenuOpen && (
+        {/* {mobileMenuOpen && (
           <div className="md:hidden mt-4 pb-4 space-y-3">
             {navLinks.map((link) => (
               <Link
@@ -80,7 +80,7 @@ export default function Header() {
               </Link>
             ))}
           </div>
-        )}
+        )} */}
       </nav>
     </header>
   )
