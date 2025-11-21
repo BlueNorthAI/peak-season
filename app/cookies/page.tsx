@@ -1,8 +1,8 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Cookie Policy | Dujulu AI',
-  description: 'Cookie Policy for Dujulu AI - Learn about how we use cookies and tracking technologies.',
+  title: 'Cookie Policy | Supply Chain Guru AI',
+  description: 'Cookie Policy for Supply Chain Guru AI - Learn about how we use cookies and tracking technologies.',
 }
 
 export default function CookiePolicy() {
@@ -23,7 +23,7 @@ export default function CookiePolicy() {
           <section>
             <h2 className="text-2xl font-semibold">2. How We Use Cookies</h2>
             <p className="mt-4 text-muted-foreground">
-              Dujulu AI uses cookies and similar tracking technologies to enhance your browsing experience, analyze website traffic, and understand where our visitors are coming from. We use cookies for the following purposes:
+              Supply Chain Guru AI uses cookies and similar tracking technologies to enhance your browsing experience, analyze website traffic, and understand where our visitors are coming from. We use cookies for the following purposes:
             </p>
           </section>
 
@@ -166,8 +166,8 @@ export default function CookiePolicy() {
             <div className="mt-4 text-muted-foreground">
               <p>If you have any questions about our use of cookies, please contact us:</p>
               <ul className="mt-4 space-y-2">
-                <li><strong>Email:</strong> info@dujulu.com</li>
-                <li><strong>Company:</strong> Dujulu AI</li>
+                <li><strong>Email:</strong> info@Supply Chain Guru.com</li>
+                <li><strong>Company:</strong> Supply Chain Guru AI</li>
               </ul>
             </div>
           </section>

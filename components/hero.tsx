@@ -16,7 +16,7 @@ export function Hero() {
           <div className="mb-8 flex justify-center">
             <div className="inline-flex items-center -space-x-1">
               <div className="relative h-12 w-12 rounded-full border-2 border-white bg-white shadow-md overflow-hidden flex items-center justify-center">
-                <Image src="/platforms/shopifycommerce.png" alt="Dujulu AI" width={36} height={36} className="object-contain p-1" />
+                <Image src="/platforms/shopifycommerce.png" alt="Supply Chain Guru AI" width={36} height={36} className="object-contain p-1" />
               
               </div>
               <div className="relative h-12 w-12 rounded-full border-2 border-white bg-white shadow-md overflow-hidden flex items-center justify-center">

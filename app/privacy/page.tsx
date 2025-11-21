@@ -1,8 +1,8 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | Dujulu AI',
-  description: 'Privacy Policy for Dujulu AI - Learn how we collect, use, and protect your information.',
+  title: 'Privacy Policy | Supply Chain Guru AI',
+  description: 'Privacy Policy for Supply Chain Guru AI - Learn how we collect, use, and protect your information.',
 }
 
 export default function PrivacyPolicy() {
@@ -16,7 +16,7 @@ export default function PrivacyPolicy() {
           <section>
             <h2 className="text-2xl font-semibold">1. Introduction</h2>
             <p className="mt-4 text-muted-foreground">
-              Dujulu AI (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our services.
+              Supply Chain Guru AI (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our services.
             </p>
           </section>
 
@@ -104,7 +104,7 @@ export default function PrivacyPolicy() {
                 <li>Withdrawal of consent</li>
               </ul>
               <p className="mt-4">
-                To exercise these rights, please contact us at info@dujulu.com.
+                To exercise these rights, please contact us at info@Supply Chain Guru.com.
               </p>
             </div>
           </section>
@@ -149,8 +149,8 @@ export default function PrivacyPolicy() {
             <div className="mt-4 text-muted-foreground">
               <p>If you have any questions about this Privacy Policy, please contact us:</p>
               <ul className="mt-4 space-y-2">
-                <li><strong>Email:</strong> info@dujulu.com</li>
-                <li><strong>Company:</strong> Dujulu AI</li>
+                <li><strong>Email:</strong> info@Supply Chain Guru.com</li>
+                <li><strong>Company:</strong> Supply Chain Guru AI</li>
               </ul>
             </div>
           </section>

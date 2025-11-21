@@ -19,24 +19,31 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b">
-      <nav className="container mx-auto px-6 py-2">
-        <div className="flex items-center justify-between gap-2">
+      <nav className=" px-6 py-1">
+        <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
+          <Link href="/" className="flex items-center">
             <Image
-              src="/logo-du/icon-original.png"
-              alt="Dujulu AI"
-              width={1000}
-              height={1000}
-              className="h-10 w-10"
+              src="/logo-supply-chain-guru/icon-transparent.png"
+              alt="Supply Chain Guru AI"
+              width={400}
+              height={400}
+              className="h-20 w-22"
             />
             <Image
-               src="/logo-du/logo-name.png"
-              alt="Dujulu AI"
+               src="/logo-supply-chain-guru/logo-horizontal-text.png"
+              alt="Supply Chain Guru"
               width={200}
               height={200}
-              className="h-10 w-auto"
+              className="h-8 w-auto -ml-2 mt-2"
             />
+             {/* <Image
+               src="/logo-supply-chain-guru/logo-horizontal-transparent.png"
+              alt="Supply Chain Guru"
+              width={200}
+              height={200}
+              className="h-20 w-auto"
+            /> */}
           </Link>
 
           {/* Desktop Navigation */}
