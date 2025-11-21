@@ -23,7 +23,7 @@ export function Footer() {
           <div>
             <h4 className="text-sm font-semibold">Contact</h4>
             <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
-              <li>info@Supply Chain Guru.com</li>
+              <li>info@supply-chain.guru</li>
               <li>Schedule a call</li>
               <li>Case studies</li>
             </ul>

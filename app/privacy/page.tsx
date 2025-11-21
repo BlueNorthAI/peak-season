@@ -104,7 +104,7 @@ export default function PrivacyPolicy() {
                 <li>Withdrawal of consent</li>
               </ul>
               <p className="mt-4">
-                To exercise these rights, please contact us at info@Supply Chain Guru.com.
+                To exercise these rights, please contact us at info@supply-chain.guru
               </p>
             </div>
           </section>
@@ -149,7 +149,7 @@ export default function PrivacyPolicy() {
             <div className="mt-4 text-muted-foreground">
               <p>If you have any questions about this Privacy Policy, please contact us:</p>
               <ul className="mt-4 space-y-2">
-                <li><strong>Email:</strong> info@Supply Chain Guru.com</li>
+                <li><strong>Email:</strong> info@supply-chain.guru</li>
                 <li><strong>Company:</strong> Supply Chain Guru AI</li>
               </ul>
             </div>

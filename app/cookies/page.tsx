@@ -166,7 +166,7 @@ export default function CookiePolicy() {
             <div className="mt-4 text-muted-foreground">
               <p>If you have any questions about our use of cookies, please contact us:</p>
               <ul className="mt-4 space-y-2">
-                <li><strong>Email:</strong> info@Supply Chain Guru.com</li>
+                <li><strong>Email:</strong> info@supply-chain.guru</li>
                 <li><strong>Company:</strong> Supply Chain Guru AI</li>
               </ul>
             </div>
