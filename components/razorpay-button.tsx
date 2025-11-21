@@ -81,7 +81,7 @@ export function RazorpayButton({
         key: razorpayKeyId,
         amount: orderData.amount,
         currency: orderData.currency,
-        name: "Supply Chain Guru AI",
+        name: "Supply Chain Guru",
         description: packageDescription,
         order_id: orderData.id,
         prefill: {

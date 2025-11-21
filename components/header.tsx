@@ -25,7 +25,7 @@ export default function Header() {
           <Link href="/" className="flex items-center">
             <Image
               src="/logo-supply-chain-guru/icon-transparent.png"
-              alt="Supply Chain Guru AI"
+              alt="Supply Chain Guru"
               width={400}
               height={400}
               className="h-20 w-22"

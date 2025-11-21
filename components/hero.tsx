@@ -16,7 +16,7 @@ export function Hero() {
           <div className="mb-8 flex justify-center">
             <div className="inline-flex items-center -space-x-1">
               <div className="relative h-12 w-12 rounded-full border-2 border-white bg-white shadow-md overflow-hidden flex items-center justify-center">
-                <Image src="/platforms/shopifycommerce.png" alt="Supply Chain Guru AI" width={36} height={36} className="object-contain p-1" />
+                <Image src="/platforms/shopifycommerce.png" alt="Supply Chain Guru" width={36} height={36} className="object-contain p-1" />
               
               </div>
               <div className="relative h-12 w-12 rounded-full border-2 border-white bg-white shadow-md overflow-hidden flex items-center justify-center">
@@ -32,8 +32,8 @@ export function Hero() {
           </div>
 
            <h1 className="text-balance text-center text-3xl font-bold leading-tight tracking-tight sm:text-6xl lg:text-6xl">
-           Protect Your 6-Week Holiday Sprint 
-            <span className="text-primary"> <br /> $11.5B in BFCM to Christmas Revenue </span> at Risk
+           Protect Your 6-Week Holiday Sprint <br />
+            <span className="text-highlight text-primary">$11.5B in BFCM to Christmas Revenue</span> at Risk
           </h1>
 
           <p className="mt-8 text-balance text-center text-xl leading-relaxed text-muted-foreground sm:text-2xl">
@@ -98,7 +98,7 @@ export function Hero() {
             </div>
             <div className="text-center">
               <div className="text-6xl font-bold text-accent">95%+</div>
-              <div className="mt-3 text-base text-muted-foreground">Service Level Improvement</div>
+              <div className="mt-3 text-base text-muted-foreground">Service Level Achievement</div>
             </div>
           </div>
         </div>

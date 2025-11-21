@@ -12,7 +12,7 @@ const lexend = Lexend({
 })
 
 export const metadata: Metadata = {
-  title: "Supply Chain Guru AI | Supply Chain Intelligence for e-commerce merchants",
+  title: "Supply Chain Guru| Supply Chain Intelligence for e-commerce merchants",
   description:
     "Guaranteed 5X ROI on inventory optimization and demand forecasting for peak season. Expert ML-powered supply chain consulting + custom Shopify apps.",
   generator: "v0.app",

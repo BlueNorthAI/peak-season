@@ -6,7 +6,7 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-12 lg:px-8">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           <div>
-            <h3 className="text-lg font-semibold text-primary">Supply Chain Guru AI</h3>
+            <h3 className="text-lg font-semibold text-primary">Supply Chain Guru</h3>
             <p className="mt-2 text-sm text-muted-foreground">Supply chain intelligence for e-commerce merchants</p>
           </div>
 
@@ -32,7 +32,7 @@ export function Footer() {
 
         <div className="mt-8 border-t border-border pt-8">
           <div className="flex flex-col items-center justify-center gap-4 text-sm text-muted-foreground sm:flex-row sm:justify-between">
-            <p>© 2025 Supply Chain Guru AI. All rights reserved.</p>
+            <p>© 2025 Supply Chain Guru. All rights reserved.</p>
             <div className="flex gap-6">
               <Link href="/privacy" className="hover:text-foreground transition-colors">
                 Privacy Policy
