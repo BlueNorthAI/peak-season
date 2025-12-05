@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { CalendlyButton } from "@/components/calendly-button"
-import { ArrowRight, Sparkles, Clock, AlertCircle } from "lucide-react"
+import { ArrowRight, Sparkles, PlayCircle } from "lucide-react"
 import Image from "next/image"
 
 export function Hero() {
@@ -12,12 +12,12 @@ export function Hero() {
 
       <div className="relative mx-auto max-w-6xl px-6 py-16 sm:py-20 lg:px-8">
         <div className="mx-auto max-w-7xl">
-          
+
+          {/* Platform logos */}
           <div className="mb-8 flex justify-center">
             <div className="inline-flex items-center -space-x-1">
               <div className="relative h-12 w-12 rounded-full border-2 border-white bg-white shadow-md overflow-hidden flex items-center justify-center">
-                <Image src="/platforms/shopifycommerce.png" alt="Supply Chain Guru" width={36} height={36} className="object-contain p-1" />
-              
+                <Image src="/platforms/shopifycommerce.png" alt="Shopify" width={36} height={36} className="object-contain p-1" />
               </div>
               <div className="relative h-12 w-12 rounded-full border-2 border-white bg-white shadow-md overflow-hidden flex items-center justify-center">
                 <Image src="/platforms/bigcommerce.png" alt="BigCommerce" width={36} height={36} className="object-contain p-1" />
@@ -31,74 +31,65 @@ export function Hero() {
             </div>
           </div>
 
-           <h1 className="text-balance text-center text-3xl font-bold leading-tight tracking-tight sm:text-6xl lg:text-6xl">
-           Protect Your 6-Week Holiday Sprint <br />
-            <span className="text-highlight text-primary">$11.5B in BFCM to Christmas Revenue</span> at Risk
+          {/* Main Headline */}
+          <h1 className="text-balance text-center text-3xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl">
+            <span className="text-highlight text-primary">Stop Losing Sales to Stockouts.</span>
+            <br />
+            Know Exactly What Inventory to Have, Where.
           </h1>
 
-          <p className="mt-8 text-balance text-center text-xl leading-relaxed text-muted-foreground sm:text-2xl">
-              AI-powered digital twins and control towers that  
-            <span className="font-semibold text-primary"> prevent stockouts, optimize inventory, and increase service levels </span> 
-             for e-commerce merchants
+          {/* Subheadline */}
+          <p className="mx-auto mt-8 max-w-3xl text-center text-lg leading-relaxed text-muted-foreground sm:text-xl">
+            E-commerce merchants doing $5M-$100M use our AI-powered control tower to eliminate guesswork and{" "}
+            <span className="font-semibold text-primary">protect peak season revenue.</span>
           </p>
 
-          <div className="mt-10 rounded-2xl border-2 border-orange-500/30 bg-gradient-to-br from-orange-50 to-red-50 p-6 shadow-lg">
-            <div className="flex items-start gap-3">
-              <AlertCircle className="mt-1 h-6 w-6 shrink-0 text-orange-600" />
-              <div>
-                <p className="text-balance text-lg font-semibold leading-relaxed text-orange-900">
-                  <Clock className="inline h-5 w-5 mr-2" />
-                  November Implementation Deadline: Black Friday is November 28, 2025
-                </p>
-                <p className="mt-2 text-base text-orange-800">
-                  Only 3 implementation slots remaining for pre-BFCM deployment. 1-week fast-track available.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="mt-10 rounded-2xl border border-primary/20 bg-white px-6 py-3 shadow-sm">
-            <div className="flex items-start gap-3">
-              <Sparkles className="mt-1 h-5 w-5 shrink-0 text-primary" />
-              <p className="text-balance text-lg leading-relaxed">
-                <span className="font-semibold text-primary">Expert team + AI monitoring</span> your operations 24/7
-                throughout Nov-Dec peak season. <span className="font-semibold text-primary">Guaranteed 5X ROI</span>.
+          {/* Supporting line with social proof */}
+          <div className="mt-8 rounded-2xl border border-primary/20 bg-white px-6 py-4 shadow-sm">
+            <div className="flex items-center justify-center gap-3">
+              <Sparkles className="h-5 w-5 shrink-0 text-primary" />
+              <p className="text-center text-lg leading-relaxed">
+                Join <span className="font-bold text-primary">50+ brands</span> who've cut stockouts 40% and reduced excess inventory 25%—
+                <span className="font-bold text-primary">guaranteed 5X ROI or your money back.</span>
               </p>
             </div>
           </div>
 
-          <div className="mt-12 flex flex-col items-center justify-center gap-4 sm:flex-row">
+          {/* CTAs */}
+          <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <CalendlyButton
               size="lg"
-              className="group h-14 w-full rounded-full bg-primary px-8 text-base hover:bg-primary/90 sm:w-auto"
+              className="group h-14 w-full rounded-full bg-orange-500 px-8 text-base font-semibold text-white hover:bg-orange-600 sm:w-auto"
             >
-              Schedule Free Assessment
+              Book Your Free Inventory Audit
               <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
             </CalendlyButton>
             <Button
               size="lg"
               variant="outline"
-              className="h-14 w-full rounded-full border-2 border-green-500 bg-transparent px-8 text-base text-green-500 hover:bg-green-500 sm:w-auto"
+              className="h-14 w-full rounded-full border-2 border-primary bg-transparent px-8 text-base font-semibold text-primary hover:bg-primary/5 sm:w-auto"
               onClick={() => {
-                document.getElementById('proven-results')?.scrollIntoView({ behavior: 'smooth' })
+                document.getElementById('three-step-plan')?.scrollIntoView({ behavior: 'smooth' })
               }}
             >
-              View Industry Results
+              <PlayCircle className="mr-2 h-5 w-5" />
+              See How It Works
             </Button>
           </div>
 
-          <div className="mt-20 grid grid-cols-1 gap-12 sm:grid-cols-3">
+          {/* Key metrics */}
+          <div className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-3">
             <div className="text-center">
-              <div className="text-6xl font-bold text-primary">5X</div>
-              <div className="mt-3 text-base text-muted-foreground">Guaranteed ROI</div>
+              <div className="text-5xl font-bold text-primary sm:text-6xl">40%</div>
+              <div className="mt-2 text-base text-muted-foreground">Stockout Reduction</div>
             </div>
             <div className="text-center">
-              <div className="text-6xl font-bold text-secondary">99%</div>
-              <div className="mt-3 text-base text-muted-foreground">Stock Out Prevention</div>
+              <div className="text-5xl font-bold text-secondary sm:text-6xl">25%</div>
+              <div className="mt-2 text-base text-muted-foreground">Less Excess Inventory</div>
             </div>
             <div className="text-center">
-              <div className="text-6xl font-bold text-accent">95%+</div>
-              <div className="mt-3 text-base text-muted-foreground">Service Level Achievement</div>
+              <div className="text-5xl font-bold text-accent sm:text-6xl">5X</div>
+              <div className="mt-2 text-base text-muted-foreground">Guaranteed ROI</div>
             </div>
           </div>
         </div>

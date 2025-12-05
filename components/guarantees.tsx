@@ -41,7 +41,7 @@ const guarantees = [
 
 export function Guarantees() {
   return (
-    <section className="py-24 sm:py-32">
+    <section id="guarantees" className="py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-balance text-4xl font-bold tracking-tight sm:text-5xl">
